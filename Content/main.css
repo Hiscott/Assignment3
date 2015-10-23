@@ -1,0 +1,89 @@
+/* Author's Name: Jordan Hiscott */
+/* Date: Friday October 22, 2015 */
+
+html {
+    heigh: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: black;
+    /* http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+    /* code below taken from this website to have my footer stick to the bottom of my page */
+    min-height: 100%;
+    height: auto !important;
+    height: 100%
+    margin: 0 auto -4em;
+}
+
+header {
+    background-color: limegreen;
+    border: 2px solid black;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+    font-family: Candal;
+}
+
+#zombieface {
+    text-align: center;
+    
+}
+
+#dawnposter {
+    color: white;
+}
+
+#sidesection {
+    text-align: left;
+    color: black;
+    width: 15%
+}
+
+.firstsection {
+    background-color: palevioletred;
+    color: white;
+    font-size: 25px;
+}
+
+.secondsection {
+    color: white;
+}
+
+.thirdsection {
+    border: 2px solid white;
+    color: white;
+}
+
+h2 {
+    font-size:25px; 
+}
+
+aside {
+    float: right;
+    font-size:15px;
+    line-height: 20px;
+    background-color: #E8950C;
+    border: 4px solid white;
+    width: 30%;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #38DCFF;
+    border-top: 3px solid black;
+    height: 4em;
+    clear: both;
+}
+
+.active {
+    background-color: skyblue;
+}
